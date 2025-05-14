@@ -28,7 +28,7 @@ jobs:
        uses: actions/checkout@v2
 
      - name: Usamos Nodejs 20.X
-       uses: actions/setup-nodeV@4
+       uses: actions/setup-node@V4
        with:
          node-version: '20.x'
          cache: 'npm'
