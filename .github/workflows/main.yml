@@ -25,7 +25,7 @@ jobs:
 
    steps:
      - name: Realizamos un checkout a la ram
-       uses: actions/chekout@v2
+       uses: actions/checkout@v2
 
      - name: Usamos Nodejs 20.X
        uses: actions/setup-nodeV@4
